@@ -1,2 +1,8 @@
 hamouda yassine Group 1
 Durand Robin Group 1
+
+
+1.2 : 	Il y a un probème dans le code on passe du mdp : az à mdp : bz au lieu de mpd : ba  (on passe de a à z )
+
+1.4 : 	Le cas ou la chaine "password" qui est passé en parametre contient des caractères spéciaux, 
+	des nombres ou encore est une chaine vide.
