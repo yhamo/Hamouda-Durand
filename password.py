@@ -8,6 +8,8 @@ def getNext(password):
     'ba'
     >>> getNext('bc')
     'bd'
+    >>> getNext('zzzzz')
+    'erreur'
     """
     pwd = list(password)  # initialisation de pwd ,une liste de lettre de charactere de password ( passe en parametre dans la fonction )
     found = False
@@ -20,7 +22,8 @@ def getNext(password):
         else:
            pwd[i] = 'a'
            i = i-1 
-    
+        if i == -1:
+            return 'erreur'
     return ''.join(pwd) #3 On le retourne le mot de passe en 1 seule chaîne de caracteres
      
      
