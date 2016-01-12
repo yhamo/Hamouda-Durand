@@ -25,8 +25,7 @@ def getNext(password):
         if i == -1:
             return 'erreur'
     return ''.join(pwd) #3 On le retourne le mot de passe en 1 seule chaîne de caracteres
-     
-     
+          
      
 # Grâce à ce fragment de code, si vous exécutez ce fichier, les tests doctests seront exécutés également. 
 # Si vous ne voulez plus que les tests s'exécutent, commentez les deux lignes ci-dessous. 
